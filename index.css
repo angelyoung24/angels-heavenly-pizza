@@ -1,14 +1,53 @@
+/* color pallet #F6F0F1, #F3D7EC, #E2B7E6, #B390DA, #A58F9C, #F1DEC8  */
+
+/* navbar */
 .navbar {
     text-align: right;
+    background-color: #F6F0F1;
 }
 
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 12px;
+    padding: 12px;
+    overflow: hidden;
 }
 
 li {
     display: inline;
+    
 }
+
+li a {
+    text-decoration: none;
+    padding: 18px;
+    color: #000;
+
+}
+
+li a:hover {
+    background-color: #A58F9C;
+}
+
+/* title */
+
+.title {
+    background-color: #E2B7E6;
+    color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    text-align: center;
+    border: #B390DA 1px solid;
+}
+
+/* header */
+
+.header {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+ }
